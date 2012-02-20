@@ -21,6 +21,9 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.0'
+group :test do
+  gem 'mocha', '0.10.4'
+end
 
 group :production do
   gem 'pg', '0.12.2'
